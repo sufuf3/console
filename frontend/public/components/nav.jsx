@@ -404,6 +404,7 @@ export class Nav extends React.Component {
             <ResourceNSLink resource="routes" name="Routes" onClick={this.close} required={FLAGS.OPENSHIFT} />
             <ResourceNSLink resource="ingresses" name="Ingress" onClick={this.close} />
             <ResourceNSLink resource="networkpolicies" name="Network Policies" onClick={this.close} />
+            <ResourceNSLink resource="onoscontrols" name="ONOS Controls" onClick={this.close} />
           </NavSection>
 
           <NavSection text="Storage" icon="pficon pficon-container-node">
